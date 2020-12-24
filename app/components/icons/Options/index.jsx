@@ -1,9 +1,9 @@
 import React from 'react'
 import { PropTypes } from 'prop-types'
 
-const Options = ({ fill = '#ffffff', classes }) => {
+const Options = ({ fill = '#ffffff', classes, onClick }) => {
   return (
-    <svg width='25' height='25' xmlns='http://www.w3.org/2000/svg' className={classes}>
+    <svg width='25' height='25' xmlns='http://www.w3.org/2000/svg' className={classes} onClick={onClick}>
       <g>
         <rect fill='none' id='canvas_background' height='602' width='802' y='-1' x='-1'/>
       </g>
@@ -20,7 +20,8 @@ const Options = ({ fill = '#ffffff', classes }) => {
 
 Options.propTypes = {
   fill    : PropTypes.string,
-  classes : PropTypes.string
+  classes : PropTypes.string,
+  onClick : PropTypes.func
 }
 
 export default Options
