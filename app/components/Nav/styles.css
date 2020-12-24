@@ -1,8 +1,16 @@
 @import "../../styles/base/_variables";
 
-.nav{
+.nav {
   background: $theme;
   padding: 18px 50px 0;
+}
+
+.miniNav.miniNav {
+  display: none;
+}
+
+.options {
+  cursor: pointer;
 }
 
 .navLinks {
@@ -38,13 +46,19 @@
 }
 
 @media (max-width: 570px) {
-  .nav {
+  .miniNav.miniNav {
+    display: flex;
+    padding: 18px 20px 0;
+  }
+
+  .mainNav {
     padding: 18px 40px 0;
     position: fixed;
+    z-index: 9999;
     height: 100vh;
     width: 100%;
     align-items: start;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
   }
 
   .toTop {

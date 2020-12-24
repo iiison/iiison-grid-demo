@@ -30,6 +30,7 @@
     background-color: $theme-1;
     color: $white;
     font-size: 16px;
+    min-width: 280px;
   }
 
   .mobile-device{

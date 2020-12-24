@@ -152,7 +152,7 @@ if (LAUNCH_COMMAND === 'prod' || LAUNCH_COMMAND === 'start') {
   commonPlugins.shift()
 }
 
-const prodEntry = [ PATHS.app, `${PATHS.styles}/main.css` ]
+const prodEntry = [ `${PATHS.styles}/main.css`, PATHS.app ]
 const devEntry = [ ...prodEntry, require.resolve('webpack-dev-server/client') + '?/' ]
 
 const baseConfigs = {

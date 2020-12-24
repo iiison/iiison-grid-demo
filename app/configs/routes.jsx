@@ -11,6 +11,7 @@ const routes = () => (
   <div className='app grid'>
     <div className='col'>
       <Nav />
+      <Nav isMini={true} />
       <Switch>
         <Route exact path='/' component={Test2} />
         <Route exact path='/test-2' component={Test2} />
