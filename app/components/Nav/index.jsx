@@ -7,11 +7,13 @@ import styles from './styles.css'
 const Nav = () => { 
   return ( 
     <div className={`grid ${styles.nav}`}>
-      <div className='col-12 margin-bottom-s'>
+      <div className={`col-12 margin-bottom-s ${styles.toTop}`}>
         <div className='grid'>
           <Logo style={{transform: 'scale(0.8)'}} />
-          <Button classes='to-right'>Login</Button>
-          <Button type='primary' classes='margin-left-l'>Sign Up</Button>
+          <div className={`to-right ${styles.buttons}`}>
+            <Button classes='col-12'>Login</Button>
+            <Button type='primary' classes='margin-left-l col-12'>Sign Up</Button>
+          </div>
         </div>
       </div>
       <nav className={`grid col-12`}>
