@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import Test2 from '$COMPONENTS/Test2'
+import { Home } from '$SCREENS'
 import { Nav } from '$COMPONENTS'
 
 const routes = () => (
@@ -9,8 +9,7 @@ const routes = () => (
     <div className='col'>
       <Nav />
       <Switch>
-        <Route exact path='/' component={Test2} />
-        <Route exact path='/test-2' component={Test2} />
+        <Route exact path='/' component={Home} />
       </Switch>
     </div>
   </div>
