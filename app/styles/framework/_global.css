@@ -48,18 +48,6 @@
     background-color: $white;
   }
 
-  .positive{
-    color: $positive;
-  }
-
-  .error{
-    color: $negative;
-  }
-
-  .normal-color{
-    color: $main-dark;
-  }
-
   .hidden{
     display: none;
   }

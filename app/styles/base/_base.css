@@ -25,10 +25,10 @@
   }
 
   body{
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-weight: 400;
-    background-color: $base-white;
-    color: $main-dark;
+    background-color: $theme-1;
+    color: $white;
     font-size: 16px;
   }
 

@@ -9,17 +9,10 @@ $white : #FFFFFF;
 /* $disabled-4 : #F1F1F1; */
 /* $disabled-5 : #D5D7DB; */
 
-$theme : #4462E6;
-$theme-grad : linear-gradient(135deg, #4462e6, #1b1394);
-/* $theme-1 : #EE4055; */
-/* $theme-2 : #3A4054; */
+$theme : #000000;
+$theme-1 : #2A2A2A;
 
-$main-dark : #333333;
-/* $dark-1 : #828796; */
-/* $dark-2 : #5D657C; */
-
-$positive : #33CA70;
-$negative : #EA4154;
+$active : #F00000;
 
 /* Fonts */
 $font-bold : 700;

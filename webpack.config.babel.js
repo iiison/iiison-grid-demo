@@ -2,7 +2,6 @@
 
 import path                     from 'path'
 import webpack                  from 'webpack'
-import minimist                 from 'minimist'
 import TerserPlugin             from 'terser-webpack-plugin'
 import ManifestPlugin           from 'webpack-manifest-plugin'
 import PnpWebpackPlugin         from 'pnp-webpack-plugin'
@@ -16,7 +15,6 @@ import CaseSensitivePathsPlugin from 'case-sensitive-paths-webpack-plugin'
 import { devStyleConfig, prodStyleConfig } from './build-configs'
 
 const LAUNCH_COMMAND = process.env.npm_lifecycle_event
-const commandsConfigs = minimist(process.argv.slice(2))
 
 const isProduction = LAUNCH_COMMAND === 'prod'
 // const isLocal = LAUNCH_COMMAND === 'local'
@@ -25,13 +23,13 @@ const PATHS = {
   app          : path.join(__dirname, 'app'),
   build        : path.join(__dirname, 'build'),
   redux        : path.join(__dirname, 'app/redux'),
-  reduxUtils   : path.join(__dirname, 'app/redux/utils'),
   styles       : path.join(__dirname, 'app/styles'),
   configs      : path.join(__dirname, 'app/configs'),
+  screens      : path.join(__dirname, 'app/screens'),
   components   : path.join(__dirname, 'app/components'),
-  containers   : path.join(__dirname, 'app/containers'),
-  icons        : path.join(__dirname, 'app/containers/icons'),
-  reduxModules : path.join(__dirname, 'app/redux/modules')
+  reduxUtils   : path.join(__dirname, 'app/redux/utils'),
+  reduxModules : path.join(__dirname, 'app/redux/modules'),
+  icons        : path.join(__dirname, 'app/components/icons')
 }
 
 // Plugins Initialization with configs
@@ -205,13 +203,13 @@ const baseConfigs = {
     alias : {
       $APP        : PATHS.app,
       $REDUX      : PATHS.redux,
+      $ICONS      : PATHS.icons,
       $BUILD      : PATHS.build,
       $CONFIGS    : PATHS.configs,
+      $SCREENS    : PATHS.screens,
       $RUTILS     : PATHS.reduxUtils,
-      $RMODULES   : PATHS.reduxModules,
-      $CONTAINERS : PATHS.containers,
       $COMPONENTS : PATHS.components,
-      $ICONS      : PATHS.icons
+      $RMODULES   : PATHS.reduxModules,
     }
   },
   optimization : {

@@ -21,12 +21,10 @@
 
       a {
         padding: 10px;
-        /* color: $theme-1; */
         display: inline-block;
 
         &:hover {
           color: $base-white;
-          /* background-color: $theme-1; */
         }
       }
     }
