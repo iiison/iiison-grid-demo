@@ -90,6 +90,9 @@
     margin-left: $S;
   }
 
+  .margin-left-l {
+    margin-left: $L;
+  }
   .margin-right-s {
     margin-right: $S;
   }
@@ -146,6 +149,11 @@
   .margin-tb-xl {
     margin-top: $XL;
     margin-bottom: $XL;
+  }
+
+  .to-right {
+    margin-left: auto;
+    align-self: flex-end;
   }
 
   .right {
