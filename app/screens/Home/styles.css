@@ -40,6 +40,12 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .content {
+    p {
+      text-shadow: 1px 1px 10px $theme;
+    }
+  }
 }
 
 .headingXL {
