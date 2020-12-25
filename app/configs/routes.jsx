@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
 import { Home } from '$SCREENS'
-import { Nav } from '$COMPONENTS'
+import { Nav, Footer } from '$COMPONENTS'
 
 const routes = () => (
   <div className='app grid'>
@@ -11,6 +11,7 @@ const routes = () => (
       <Switch>
         <Route exact path='/' component={Home} />
       </Switch>
+      <Footer />
     </div>
   </div>
 )

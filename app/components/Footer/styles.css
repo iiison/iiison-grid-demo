@@ -1,0 +1,29 @@
+@import url("../../styles/base/_variables");
+
+.footer {
+  background: $theme;
+}
+
+.footerCont {
+  padding: 20px 50px 50px;
+}
+
+.linksCol.linksCol {
+  min-width: 92px;
+  max-width: 110px;
+  font-size: 0.6em;
+}
+
+@media (max-width: 768px) {
+  .logoCont {
+    zoom: 0.6;
+  }
+}
+
+@media (max-width: 500px) {
+  .linksCol.linksCol {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
