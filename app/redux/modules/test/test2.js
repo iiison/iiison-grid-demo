@@ -1,29 +1,18 @@
+import {
+  makeReducer,
+  makeActions
+} from '$RUTILS/reduxUtils'
+
 // import { get } from '$UTILS/requestHandler'
-// import errorTypeDetailMap from '$CONFIG/errorTypeDetailMap'
 
 export const GET_EMPLOYEE = 'GET_EMPLOYEE'
-export const GET_EMPLOYEE_SUCCESS = 'GET_EMPLOYEE_SUCCESS'
-export const GET_EMPLOYEE_FAILURE = 'GET_EMPLOYEE_FAILURE'
+export const CUSTOM_ACTION = 'CUSTOM_ACTION'
 
-export function getEmployee() {
-  return {
-    type : GET_EMPLOYEE
-  }
-}
-
-export function getEmployeeFailure(error = '') {
-  return {
-    type  : GET_EMPLOYEE_FAILURE,
-    error
-  }
-}
-
-export function getEmployeeSuccess(response) {
-  return {
-    type : GET_EMPLOYEE_SUCCESS,
-    response
-  }
-}
+const {
+  defaultAction: getEmployee,
+  successAction: getEmployeeSuccess,
+  failureAction: getEmployeeFailure,
+} = makeActions(GET_EMPLOYEE)
 
 // Async Action Creators Starts
 export function fetchEmployee() {
@@ -53,28 +42,27 @@ export function fetchEmployee() {
 export const initialState = {
   isFetching : false,
   isAuthed   : false,
-  error      : ''
+  error      : '',
+  count      : 0
 }
 
-export default function employee(state = initialState, action) {
-  const options = {
-    GET_EMPLOYEE : () => ({
-      ...state,
-      isFetching : true
-    }),
-    GET_EMPLOYEE_FAILURE : () => ({
-      ...state,
-      isFetching : false,
-      error      : action.error
-    }),
-    GET_EMPLOYEE_SUCCESS : () => ({
-      ...state,
-      isFetching : false,
-      error      : '',
-      response   : action.response
-    })
+const employee = makeReducer({
+  actionName: GET_EMPLOYEE,
+  initialState,
+  additionalActions(state) {
+    return {
+      CUSTOM_ACTION : () => ({
+        ...state,
+        count : state.count + 1
+      })
+    }
   }
+})
 
-  return (action.type && options[action.type]) ? options[action.type]() : state
+export default employee
+export {
+  getEmployee,
+  getEmployeeSuccess,
+  getEmployeeFailure
 }
 
