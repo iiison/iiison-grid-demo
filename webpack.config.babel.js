@@ -16,7 +16,7 @@ import { devStyleConfig, prodStyleConfig } from './build-configs'
 
 const LAUNCH_COMMAND = process.env.npm_lifecycle_event
 
-const isProduction = LAUNCH_COMMAND === 'prod'
+const isProduction = LAUNCH_COMMAND === 'prod' || LAUNCH_COMMAND === 'prod:stat'
 // const isLocal = LAUNCH_COMMAND === 'local'
 const shouldUseSourceMaps = isProduction
 const PATHS = {
