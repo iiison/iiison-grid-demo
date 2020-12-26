@@ -1,0 +1,70 @@
+[
+  {
+    "size" : "2_2",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg",
+    "content" : { 
+      "text" : "Play\nWin\nExcite",
+      "size" : "xl"
+    },
+    "button" : {
+      "text" : "Get Started!"
+    }
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_2",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg",
+    "content" : {
+      "text" : "Live Games\nWith Friends",
+      "size" : "l",
+      "shouldCenter" : true
+    }
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg"
+  },
+  {
+    "size" : "1_1",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg",
+    "content" : {
+      "text" : "Esports",
+      "size" : ""
+    }
+  },
+  {
+    "size" : "1_2",
+    "imgUrl" : "https://i.imgur.com/yJAsBlY.jpg",
+    "content" : {
+      "text" : "Love Playing?\nJoin the League",
+      "size" : ""
+    },
+    "link" : {
+      "url" : "#",
+      "text" : "Apply Now!"
+    }
+  }
+]
