@@ -51,7 +51,7 @@ GridItem.propTypes = {
   content  : PropTypes.shape({
     text : PropTypes.string,
     shouldCenter : PropTypes.bool,
-    size : PropTypes.oneOf(['xl', 'l', 's']),
+    size : PropTypes.oneOf(['xl', 'l', '']),
   }),
   button : PropTypes.shape({
     text : PropTypes.string
@@ -71,4 +71,5 @@ const Home = () => {
 }
 
 export default Home
+export { GridItem }
 

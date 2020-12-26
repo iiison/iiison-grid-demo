@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>> COMPONENT -- Tests home page GridItem GridItem 1_1 Snapshot Test With Content And Button 1`] = `
+<div
+  className="gridItem span_1_1 grid-middle"
+>
+  <img
+    className="heroImg"
+    src="https://i.imgur.com/yJAsBlY.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="grid-middle grid-center full-height t-upper"
+    >
+      <div>
+        <p
+          className="headingXL undefined"
+        >
+          Play
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Win
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Excite
+        </p>
+        <button
+          className="primary button "
+        >
+          Get Started!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`>> COMPONENT -- Tests home page GridItem GridItem 1_1 Snapshot Test With Content and Link 1`] = `
+<div
+  className="gridItem span_1_1 grid-middle"
+>
+  <img
+    className="heroImg"
+    src="https://i.imgur.com/yJAsBlY.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="grid-middle grid-center full-height t-upper"
+    >
+      <div>
+        <p
+          className="heading undefined"
+        >
+          Love Playing?
+        </p>
+        <p
+          className="heading undefined"
+        >
+          Join the League
+        </p>
+      </div>
+      <a
+        className="t-right t-capitalize col-12 applyLink"
+        href="#"
+      >
+        Apply Now!
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`>> COMPONENT -- Tests home page GridItem GridItem 1_1 Snapshot Test Without Content and Button 1`] = `
+<div
+  className="gridItem span_2_2 grid-middle"
+>
+  <img
+    className="heroImg"
+    src="https://i.imgur.com/yJAsBlY.jpg"
+  />
+  <div
+    className="content"
+  />
+</div>
+`;
+
+exports[`>> COMPONENT -- Tests home page GridItem GridItem 1_2 Snapshot Test 1`] = `
+<div
+  className="gridItem span_1_2 grid-middle"
+>
+  <img
+    className="heroImg"
+    src="https://i.imgur.com/yJAsBlY.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="grid-middle grid-center full-height t-upper"
+    >
+      <div>
+        <p
+          className="headingXL undefined"
+        >
+          Play
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Win
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Excite
+        </p>
+        <button
+          className="primary button "
+        >
+          Get Started!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`>> COMPONENT -- Tests home page GridItem GridItem 2_2 Snapshot Test 1`] = `
+<div
+  className="gridItem span_2_2 grid-middle"
+>
+  <img
+    className="heroImg"
+    src="https://i.imgur.com/yJAsBlY.jpg"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="grid-middle grid-center full-height t-upper"
+    >
+      <div>
+        <p
+          className="headingXL undefined"
+        >
+          Play
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Win
+        </p>
+        <p
+          className="headingXL undefined"
+        >
+          Excite
+        </p>
+        <button
+          className="primary button "
+        >
+          Get Started!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`>> SCREEN -- Tests Home Page Home Page Snapshot Test 1`] = `
+<div
+  className="grid homeGrid"
+>
+  <div
+    className="gridItem span_2_2 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="grid-middle grid-center full-height t-upper"
+      >
+        <div>
+          <p
+            className="headingXL undefined"
+          >
+            Play
+          </p>
+          <p
+            className="headingXL undefined"
+          >
+            Win
+          </p>
+          <p
+            className="headingXL undefined"
+          >
+            Excite
+          </p>
+          <button
+            className="primary button "
+          >
+            Get Started!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_2 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="grid-middle grid-center full-height t-upper"
+      >
+        <div>
+          <p
+            className="headingL t-center"
+          >
+            Live Games
+          </p>
+          <p
+            className="headingL t-center"
+          >
+            With Friends
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    />
+  </div>
+  <div
+    className="gridItem span_1_1 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="grid-middle grid-center full-height t-upper"
+      >
+        <div>
+          <p
+            className="heading undefined"
+          >
+            Esports
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="gridItem span_1_2 grid-middle"
+  >
+    <img
+      className="heroImg"
+      src="https://i.imgur.com/yJAsBlY.jpg"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="grid-middle grid-center full-height t-upper"
+      >
+        <div>
+          <p
+            className="heading undefined"
+          >
+            Love Playing?
+          </p>
+          <p
+            className="heading undefined"
+          >
+            Join the League
+          </p>
+        </div>
+        <a
+          className="t-right t-capitalize col-12 applyLink"
+          href="#"
+        >
+          Apply Now!
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
