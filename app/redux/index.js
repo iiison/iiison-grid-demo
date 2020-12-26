@@ -1,3 +1,2 @@
-export test from './modules/test/test'
-export employee from './modules/test/test2'
-
+export pin from './modules/test/test'
+export configs from './modules/test/test2';
